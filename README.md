@@ -19,13 +19,3 @@ The contact form checks that the fields are filled in, but it does not send or s
 - `script.js` adds the menu, scrolling effects, project popups, image viewer, and form checks.
 - `images/` contains my profile photo, project screenshots, and tech icons in `images/logo/`.
 
-## View my portfolio
-
-Open `index.html` in a web browser. While I’m editing, I can use a code editor’s local preview or Live Server to see changes update.
-
-## Keep exploring
-
-- I can update my text and image paths in `index.html`.
-- I can adjust how the site looks in `style.css`.
-- I can change its interactive features in `script.js`.
-- I can add images to `images/` and reference them with paths like `images/my-image.png`.
