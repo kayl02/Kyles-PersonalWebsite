@@ -1,31 +1,29 @@
-# The Kode — Personal Portfolio
+# The Kode — My Portfolio
 
-This is Justine Kyle Go’s portfolio website. It presents his background, selected projects, education, technical skills, and contact information in an editorial newspaper-inspired design.
+Welcome to my portfolio. I’m Justine Kyle Go, an Information Technology student at the Polytechnic University of the Philippines. I made this site to share what I’m learning, the projects I’ve worked on, and the ideas I want to keep exploring.
 
-## Website features
+The newspaper-inspired design reflects how I like to present my work: clearly, creatively, and one story at a time. This portfolio is a work in progress, just like my journey in tech.
 
-- Responsive layout for desktop and mobile screens
-- Navigation with smooth scrolling and a mobile menu
-- Project detail popups and an image viewer for project screenshots
-- Scroll progress and section reveal effects
-- Contact form with browser-side validation
+## A little about the site
 
-The contact form is a front-end demo. It checks that the fields are filled in, but it does not send or store messages.
+You can explore my background, projects, education, and technical toolkit. Project screenshots can be opened in a larger viewer, and the mobile menu makes it easier to browse on a phone.
 
-## Project files
+The contact form checks that the fields are filled in, but it does not send or store messages yet.
 
-- `index.html` — page content and structure
-- `style.css` — layout, colors, typography, and responsive styles
-- `script.js` — navigation, scrolling, project popups, image viewer, and form checks
-- `images/` — profile photo, project screenshots, and technology icons in `images/logo/`
+## How I built it
 
-## View the website
+- `index.html` holds the words, images, and structure of my page.
+- `style.css` controls the layout, colors, fonts, and mobile design.
+- `script.js` adds the menu, scrolling effects, project popups, image viewer, and form checks.
+- `images/` contains my profile photo, project screenshots, and tech icons in `images/logo/`.
 
-Open `index.html` in a web browser. To see changes update automatically while editing, open the folder in a code editor and use its local preview or Live Server feature.
+## View my portfolio
 
-## Make changes
+Open `index.html` in a web browser. While I’m editing, I can use a code editor’s local preview or Live Server to see changes update.
 
-- Edit text and image paths in `index.html`.
-- Edit the appearance in `style.css`.
-- Edit interactive behavior in `script.js`.
-- Put new images in `images/` and reference them with paths such as `images/my-image.png`.
+## Keep exploring
+
+- I can update my text and image paths in `index.html`.
+- I can adjust how the site looks in `style.css`.
+- I can change its interactive features in `script.js`.
+- I can add images to `images/` and reference them with paths like `images/my-image.png`.
