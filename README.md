@@ -4,6 +4,8 @@ Welcome to my portfolio. I’m Justine Kyle Go, an Information Technology studen
 
 The newspaper-inspired design reflects how I like to present my work: clearly, creatively, and one story at a time. This portfolio is a work in progress, just like my journey in tech.
 
+**Visit my portfolio:** [kyles-personalwebsite.vercel.app](https://kyles-personalwebsite.vercel.app/)
+
 ## A little about the site
 
 You can explore my background, projects, education, and technical toolkit. Project screenshots can be opened in a larger viewer, and the mobile menu makes it easier to browse on a phone.
