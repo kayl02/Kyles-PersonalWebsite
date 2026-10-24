@@ -692,11 +692,19 @@ nav {
   margin-top: 4.5rem;
 }
 
+<<<<<<< HEAD
 /* Space below the Projects heading. */
 #project .project-headline-strip {
   margin-bottom: 1.75rem;
 }
 
+=======
+/* Space below the Projects heading. */
+#project .project-headline-strip {
+  margin-bottom: 1.75rem;
+}
+
+>>>>>>> f17f20b17938b70f8136f72db3f61a860b2fb46c
 /* Projects heading. */
 .project-headline-strip {
   display: flex;
@@ -745,8 +753,13 @@ nav {
   grid-template-columns: 1fr 1fr;
   gap: 0;
   width: 100%;
+<<<<<<< HEAD
   max-width: 1080px;
   margin: 0 auto;
+=======
+  max-width: 1080px;
+  margin: 0 auto;
+>>>>>>> f17f20b17938b70f8136f72db3f61a860b2fb46c
   padding-bottom: 3.5rem;
 }
 
@@ -1202,10 +1215,17 @@ nav {
   background: var(--paper);
 }
 
+<<<<<<< HEAD
 .modal-body-scrollable > .thin-rule {
   margin: 0;
 }
 
+=======
+.modal-body-scrollable > .thin-rule {
+  margin: 0;
+}
+
+>>>>>>> f17f20b17938b70f8136f72db3f61a860b2fb46c
 .modal-body-scrollable::-webkit-scrollbar {
   width: 6px;
 }
@@ -1361,6 +1381,7 @@ nav {
   transition: transform 0.3s ease;
 }
 
+<<<<<<< HEAD
 .showcase-screenshot {
   width: 100%;
   height: 230px;
@@ -1370,6 +1391,17 @@ nav {
   border: 1px solid var(--border);
 }
 
+=======
+.showcase-screenshot {
+  width: 100%;
+  height: 230px;
+  display: block;
+  object-fit: contain;
+  background: #1a1a18;
+  border: 1px solid var(--border);
+}
+
+>>>>>>> f17f20b17938b70f8136f72db3f61a860b2fb46c
 .showcase-badge {
   position: absolute;
   top: 10px;
@@ -1411,9 +1443,15 @@ nav {
   transform: translateY(-2px);
 }
 
+<<<<<<< HEAD
 .reflection-cols {
   column-count: 1;
   column-gap: 0;
+=======
+.reflection-cols {
+  column-count: 1;
+  column-gap: 0;
+>>>>>>> f17f20b17938b70f8136f72db3f61a860b2fb46c
 }
 
 .reflection-cols p {
@@ -1572,9 +1610,15 @@ nav {
 }
 
 /* Tech stack section. */
+<<<<<<< HEAD
 .tech-stack-section {
   padding-top: 0;
   margin-top: 4.5rem;
+=======
+.tech-stack-section {
+  padding-top: 0;
+  margin-top: 4.5rem;
+>>>>>>> f17f20b17938b70f8136f72db3f61a860b2fb46c
 }
 
 
@@ -1588,12 +1632,21 @@ nav {
   margin: 0;
 }
 
+<<<<<<< HEAD
 .tech-stack-rule.bottom-rule {
   border-top: 4px double var(--border);
   margin-top: 4rem;
   margin-bottom: 0;
 }
 
+=======
+.tech-stack-rule.bottom-rule {
+  border-top: 4px double var(--border);
+  margin-top: 4rem;
+  margin-bottom: 0;
+}
+
+>>>>>>> f17f20b17938b70f8136f72db3f61a860b2fb46c
 
 
 
@@ -1658,6 +1711,7 @@ nav {
   flex-direction: column;
 }
 
+<<<<<<< HEAD
 .tech-col-list li {
   font-family: var(--font-ui);
   font-size: 0.95rem;
@@ -1678,6 +1732,28 @@ nav {
   object-fit: contain;
 }
 
+=======
+.tech-col-list li {
+  font-family: var(--font-ui);
+  font-size: 0.95rem;
+  color: var(--ink);
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--border-soft);
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.tech-col-list li img {
+  width: 24px;
+  height: 24px;
+  flex: 0 0 24px;
+  object-fit: contain;
+}
+
+>>>>>>> f17f20b17938b70f8136f72db3f61a860b2fb46c
 
 
 
@@ -1851,7 +1927,11 @@ nav {
   gap: 1rem;
 }
 
+<<<<<<< HEAD
 .footer-copy,
+=======
+.footer-copy,
+>>>>>>> f17f20b17938b70f8136f72db3f61a860b2fb46c
 .back-to-top {
   font-family: var(--font-ui);
   font-size: 0.62rem;
@@ -2146,6 +2226,7 @@ nav {
     gap: 1rem;
   }
 
+<<<<<<< HEAD
 
 
   .contact-message-field,
@@ -2153,6 +2234,15 @@ nav {
     grid-column: 1;
   }
 
+=======
+
+
+  .contact-message-field,
+  .contact-form-actions {
+    grid-column: 1;
+  }
+
+>>>>>>> f17f20b17938b70f8136f72db3f61a860b2fb46c
   .contact-details-grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
@@ -2169,6 +2259,7 @@ nav {
   }
 }
 
+<<<<<<< HEAD
 
 
 
@@ -2238,11 +2329,86 @@ nav {
   margin: 0;
 }
 
+=======
+
+
+
+.hero-bottom-rule {
+  border: 0;
+  border-top: 4px double var(--border);
+  margin: 1rem 0 0;
+}
+
+
+/* Contact form layout. */
+.contact-main-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  align-items: start;
+  gap: clamp(2rem, 5vw, 6rem);
+}
+
+.contact-main-grid .contact-headline-block {
+  margin: 2.5rem 0 3rem;
+}
+
+.contact-main-grid .contact-form {
+  max-width: none;
+  margin: 2.5rem 0 3.5rem;
+  padding: 0;
+  border: 0;
+}
+
+.contact-invitation {
+  max-width: 52ch;
+  margin: 1.25rem 0 0;
+  color: rgba(239, 236, 226, 0.72);
+  font-size: 0.95rem;
+  line-height: 1.8;
+}
+
+.contact-main-grid .contact-details-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem 1rem;
+  margin: 1.75rem 0 0;
+}
+
+@media (max-width: 768px) {
+  .contact-main-grid {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .contact-main-grid .contact-headline-block {
+    margin: 1rem 0 0;
+  }
+
+  .contact-main-grid .contact-form {
+    margin: 0 0 3rem;
+  }
+
+  .contact-main-grid .contact-details-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+}
+/* Line below projects. */
+.projects-bottom-rule {
+  border: 0;
+  border-top: 4px double var(--border);
+  margin: 0;
+}
+
+>>>>>>> f17f20b17938b70f8136f72db3f61a860b2fb46c
 /* Project card layout. */
 .project-layout-wrap {
   grid-template-columns: minmax(0, 1.45fr) minmax(0, 0.85fr) minmax(180px, 0.7fr);
   align-items: stretch;
+<<<<<<< HEAD
   gap: clamp(1rem, 2vw, 1.75rem);
+=======
+  gap: clamp(1rem, 2vw, 1.75rem);
+>>>>>>> f17f20b17938b70f8136f72db3f61a860b2fb46c
   max-width: 1450px;
 }
 
@@ -2260,10 +2426,17 @@ nav {
   height: clamp(155px, 18vw, 230px);
 }
 
+<<<<<<< HEAD
 .project-layout-wrap .card-desc {
   text-align: left;
 }
 
+=======
+.project-layout-wrap .card-desc {
+  text-align: left;
+}
+
+>>>>>>> f17f20b17938b70f8136f72db3f61a860b2fb46c
 .project-layout-wrap .project-secondary-card .card-category {
   margin-top: 1rem;
   font-size: 0.58rem;
@@ -2339,6 +2512,18 @@ nav {
   color: var(--accent);
 }
 
+<<<<<<< HEAD
+/* Keep arrow symbols as text glyphs instead of colorful phone emoji. */
+.link-arrow,
+.arrow-accent,
+.project-index-arrow,
+.contact-submit span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-variant-emoji: text;
+}
+
+=======
+>>>>>>> f17f20b17938b70f8136f72db3f61a860b2fb46c
 .project-index-note {
   margin-top: 0.85rem;
   color: var(--muted);
@@ -2390,3 +2575,48 @@ nav {
     gap: 0;
   }
 }
+<<<<<<< HEAD
+
+/* Keep the mobile menu button on its own row and below the header rules. */
+@media (max-width: 768px) {
+  .nav-wrapper nav {
+    display: flex;
+    align-items: center;
+    min-height: 3.25rem;
+  }
+
+  #nav-toggle {
+    top: 50%;
+    right: var(--page-margin);
+    transform: translateY(-50%);
+  }
+
+  #mobile-nav.open {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    z-index: 9;
+    border-top: 1px solid var(--border);
+    border-bottom: 4px double var(--border);
+    box-shadow: 0 12px 18px rgba(25, 25, 23, 0.12);
+  }
+
+  /* Stack the form fields so their placeholders fit on narrow screens. */
+  .contact-main-grid .contact-form {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1rem;
+  }
+
+  .contact-main-grid .contact-message-field,
+  .contact-main-grid .contact-form-actions {
+    grid-column: 1;
+  }
+
+  .contact-form-field input,
+  .contact-form-field textarea {
+    min-width: 0;
+  }
+}
+=======
+>>>>>>> f17f20b17938b70f8136f72db3f61a860b2fb46c
