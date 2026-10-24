@@ -2339,6 +2339,15 @@ nav {
   color: var(--accent);
 }
 
+/* Keep arrow symbols as simple text glyphs on mobile devices. */
+.link-arrow,
+.arrow-accent,
+.project-index-arrow,
+.contact-submit span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-variant-emoji: text;
+}
+
 .project-index-note {
   margin-top: 0.85rem;
   color: var(--muted);
@@ -2388,6 +2397,48 @@ nav {
   .project-index-list {
     grid-template-columns: 1fr;
     gap: 0;
+  }
+}
+
+/* Keep the mobile menu button between the header rules. */
+@media (max-width: 768px) {
+  .nav-wrapper nav {
+    display: flex;
+    align-items: center;
+    min-height: 3.25rem;
+  }
+
+  #nav-toggle {
+    top: 50%;
+    right: var(--page-margin);
+    transform: translateY(-50%);
+  }
+
+  #mobile-nav.open {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    z-index: 9;
+    border-top: 1px solid var(--border);
+    border-bottom: 4px double var(--border);
+    box-shadow: 0 12px 18px rgba(25, 25, 23, 0.12);
+  }
+
+  /* Give each contact field the full phone width. */
+  .contact-main-grid .contact-form {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1rem;
+  }
+
+  .contact-main-grid .contact-message-field,
+  .contact-main-grid .contact-form-actions {
+    grid-column: 1;
+  }
+
+  .contact-form-field input,
+  .contact-form-field textarea {
+    min-width: 0;
   }
 }
 
